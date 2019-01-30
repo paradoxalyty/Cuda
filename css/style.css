@@ -545,16 +545,6 @@ footer .navbar-center > li > a:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
     
-    header .navbar-right {
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-    }
-    
-    header .navbar-right li a {
-        padding: 0;
-    }
-    
     section.services .service blockquote, .person, .skill {
         padding-bottom: 20px;
     }
@@ -570,6 +560,16 @@ footer .navbar-center > li > a:hover {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
+    
+    header .navbar-right {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    
+    header .navbar-right li a {
+        padding: 0;
+    }
     
     header .container {
         padding: 0 20px;
