@@ -549,8 +549,14 @@ footer .navbar-center > li > a:hover {
         padding-bottom: 20px;
     }
 
-    .contacting .first, .second {
+    .contacting .first, .contacting .second {
         padding: 0;
+    }
+    
+    .review .row {
+        margin: 0;
+        padding: 15px 0;
+        text-align: center;
     }
     
     footer .padding-left-20 ul li {
