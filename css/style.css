@@ -578,6 +578,11 @@ footer .navbar-center > li > a:hover {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
     
+        .portfolio .four li {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    
         footer .navbar-center {
         display: flex;
         justify-content: space-between;
