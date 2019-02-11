@@ -1,3 +1,3 @@
-# Cuda
+# cuda
 
-https://paradoxalyty.github.io/Cuda/
+https://paradoxalyty.github.io/cuda/
