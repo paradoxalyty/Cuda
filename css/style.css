@@ -57,12 +57,12 @@ section h2:after {
 /*********************** HEADER **********************/
 
 
-
 header .container {
     padding: 30px 0;
 }
 
 nav.navbar.navbar-fixed-top {
+    width: 100%;
     border: none;
     border-radius: 0;
     margin: 0;
@@ -282,6 +282,7 @@ section .service h5 {
     color: #3c4761;
     font-size: 18px;
 }
+
 .portfolio .four > ul {
     display: inline-block;
 }
@@ -528,11 +529,11 @@ footer .navbar-center > li > a:hover {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-    
+
     footer .padding-left-20 ul li {
         padding-left: 0;
     }
-    
+
     footer .navbar-center > li > a {
         font-size: 20px;
     }
@@ -540,7 +541,7 @@ footer .navbar-center > li > a:hover {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-    
+
     section.services .service blockquote, .person, .skill {
         padding-bottom: 20px;
     }
@@ -548,13 +549,13 @@ footer .navbar-center > li > a:hover {
     .contacting .first, .contacting .second {
         padding: 0;
     }
-    
+
     .review .row {
         margin: 0;
         padding: 15px 0;
         text-align: center;
     }
-    
+
     footer .padding-left-20 ul li {
         padding-left: 0;
     }
@@ -562,26 +563,26 @@ footer .navbar-center > li > a:hover {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
-    
+
     header .navbar-right {
         display: flex;
         justify-content: space-between;
         font-size: 15px;
     }
-    
+
     header .navbar-right li a {
         padding: 0;
     }
-    
+
     header .container {
         padding: 0 20px;
     }
-    
+
     footer .navbar-center {
         display: flex;
         justify-content: space-between;
     }
-    
+
     footer .navbar-center > li > a {
         padding: 0 7px;
         font-size: 15px;
@@ -590,12 +591,12 @@ footer .navbar-center > li > a:hover {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-    
-        .portfolio .four li {
+
+    .portfolio .four li {
         font-size: 10px;
         margin-bottom: 0;
     }
-    
+
     footer .navbar-center > li > a {
         font-size: 10px;
     }
