@@ -62,7 +62,7 @@ header .container {
 }
 
 nav.navbar.navbar-fixed-top {
-    width: 100%;
+    max-width: 100%;
     border: none;
     border-radius: 0;
     margin: 0;
@@ -177,7 +177,6 @@ section .service h5 {
     height: 200px;
     border-radius: 50%;
     margin-bottom: 40px;
-
     background-color: #878787;
 }
 
@@ -215,7 +214,6 @@ section .service h5 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-
     background-color: #bdd1df;
 }
 
@@ -291,9 +289,7 @@ section .service h5 {
     border: 0 none;
     border-radius: 4px;
     margin: 0 5px 43px 10px;
-
     background-color: #ebc985;
-
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -302,10 +298,6 @@ section .service h5 {
     color: #3c4761;
 
 }
-
-/*.portfolio .four:active {
-    background-color: #ffffff;
-}*/
 
 .portfolio .four:focus {
     outline: none;
@@ -465,8 +457,10 @@ footer.zero {
     margin: 0;
 }
 
-footer .padding-left-20 ul li {
-    padding-left: 20px;
+footer .navbar-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer .navbar-center > li > a {
@@ -530,12 +524,12 @@ footer .navbar-center > li > a:hover {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
 
-    footer .padding-left-20 ul li {
-        padding-left: 0;
+    footer {
+        padding: 15px 0 0 0;
     }
 
     footer .navbar-center > li > a {
-        font-size: 20px;
+        margin-bottom: 15px;
     }
 }
 
@@ -546,18 +540,10 @@ footer .navbar-center > li > a:hover {
         padding-bottom: 20px;
     }
 
-    .contacting .first, .contacting .second {
-        padding: 0;
-    }
-
     .review .row {
         margin: 0;
         padding: 15px 0;
         text-align: center;
-    }
-
-    footer .padding-left-20 ul li {
-        padding-left: 0;
     }
 }
 
@@ -578,9 +564,13 @@ footer .navbar-center > li > a:hover {
         padding: 0 20px;
     }
 
-    footer .navbar-center {
-        display: flex;
-        justify-content: space-between;
+    .contacting .first,
+    .contacting .second {
+        padding: 0;
+    }
+
+    .contacting input {
+        margin: 0;
     }
 
     footer .navbar-center > li > a {
@@ -595,9 +585,5 @@ footer .navbar-center > li > a:hover {
     .portfolio .four li {
         font-size: 10px;
         margin-bottom: 0;
-    }
-
-    footer .navbar-center > li > a {
-        font-size: 10px;
     }
 }
