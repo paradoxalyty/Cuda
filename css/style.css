@@ -366,12 +366,14 @@ section .service h5 {
 }
 
 .review blockquote {
+    height: 130px;
     margin-top: 15px;
     margin-bottom: 30px;
 
     font-size: 21px;
     font-style: italic;
     line-height: 31px;
+    text-align: left;
 }
 
 .review blockquote:before {
@@ -546,6 +548,10 @@ footer .navbar-center > li > a:hover {
         margin: 0;
         padding: 15px 0;
         text-align: center;
+    }
+
+    .review blockquote {
+        height: auto;
     }
 }
 
